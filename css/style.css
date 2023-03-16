@@ -516,6 +516,42 @@ img {
   text-align: center;
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-working-website@2x.jpg);
+  }
+}
+
+@media screen and and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-working-website@2x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-working-website@2x.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 188px;
@@ -939,7 +975,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .footer-logo {
-    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -948,7 +983,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .footer-media {
-    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
